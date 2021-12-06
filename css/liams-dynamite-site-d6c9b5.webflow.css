@@ -149,13 +149,13 @@ p {
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
-  color: #5c5c5c;
+  color: #b4b4b4;
 }
 
 .section.header {
   padding: 80px 10px;
   background-color: #90e3fd;
-  background-image: linear-gradient(135deg, rgba(217, 0, 79, 0.88), rgba(227, 72, 0, 0.82)), url('../images/nature.jpg');
+  background-image: linear-gradient(135deg, rgba(0, 192, 217, 0.274), rgba(5, 6, 68, 0.836)), url('../images/nature.jpg');
   background-position: 0% 0%, 50% 50%;
   background-size: auto, cover;
   color: hsla(0, 0%, 100%, 0.72);
@@ -171,7 +171,7 @@ p {
 
 .section.grey {
   background-color: #272832;
-  color: #696969;
+  color: #adadad;
 }
 
 .section.footer {
@@ -182,7 +182,7 @@ p {
   padding-bottom: 0px;
   border-top: 1px solid #ededed;
   background-color: #272832;
-  color: #4d4d4d;
+  color: #b4b4b4;
 }
 
 .section.white {
@@ -312,12 +312,12 @@ p {
 }
 
 .project-link.project-4 {
-  background-image: url('../images/birds.jpg');
+  background-image: url('../images/mystery-bot.png');
   background-position: 100% 50%;
 }
 
 .project-link.project-5 {
-  background-image: url('../images/johnny-lam-connect.jpg');
+  background-image: url('../images/Galaxy-box.png');
 }
 
 .project-link.project-6 {
@@ -368,7 +368,7 @@ p {
   right: 0px;
   bottom: 0px;
   padding: 11px 19px 13px;
-  background-color: rgba(0, 0, 0, 0.09);
+  background-color: rgba(0, 0, 0, 0.49);
 }
 
 .tag {
@@ -466,7 +466,7 @@ p {
 }
 
 .replace-text {
-  background-color: hsla(0, 0%, 100%, 0.09);
+  background-color: hsla(0, 0%, 100%, 0.001);
 }
 
 .skill {
@@ -517,10 +517,9 @@ p {
 }
 
 .no-padd-section.grey {
-  background-color: #ededed;
-  color: #696969;
+  background: linear-gradient(rgba(8, 120, 126, 0.418),rgba(255, 255, 0, 0),rgba(15, 15, 102, 0.192));
+  color: #b4b4b4;
 }
-
 .no-padd-section.border {
   border-top: 1px solid #ededed;
 }
