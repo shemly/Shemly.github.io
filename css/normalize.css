@@ -355,8 +355,8 @@ th {
 }
 
 #video {
-min-width: 29rem;
-max-width: 35rem;
+min-width: 28rem;
+max-width: 34rem;
 height: 20rem;
 max-height: 35rem;
 margin: auto;
@@ -364,31 +364,31 @@ display: flex;
 
 
 }
+@media only screen and (min-width: 1080px) {
 .border-box-test {
   border-color: #343542;
   background-color: 343542;
   border-radius: 2%;
   border-style: solid;
   min-width: 29rem;
-  max-width: 50rem;
+  max-width: 35rem;
   height: 21rem;
   display: flex;
   margin-top: 20px;
 }
-.shadow-blue {
-  border-color: darkblue;
-  border-style: solid;
-  padding: 0%;
-}
-#coming-soon-css {
-  
-}
+
 
 @media only screen and (max-width: 600px) {
 
-
+  .border-box-test {
+    min-width: 110px;
+    min-height: 200px;
+    border-style: inherit;
+  }
   #video {
-    min-width: 300px;
+    min-width: 100px;
+    max-width: 300px;
+
   }
 }
   
