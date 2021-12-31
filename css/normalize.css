@@ -353,3 +353,35 @@ td,
 th {
   padding: 0;
 }
+
+#video {
+min-width: 30rem;
+max-width: 35rem;
+height: 20rem;
+max-height: 35rem;
+margin: auto;
+display: flex;
+
+
+}
+.border-box-test {
+  border-color: #343542;
+  background-color: 343542;
+  border-radius: 2%;
+  border-style: solid;
+  min-width: 31rem;
+  max-width: 50rem;
+  height: 21rem;
+  display: flex;
+  margin-top: 20px;
+}
+.shadow-blue {
+  border-color: darkblue;
+  border-style: solid;
+  padding: 0%;
+}
+#coming-soon-css {
+  
+}
+
+  
