@@ -381,13 +381,13 @@ display: flex;
 @media only screen and (max-width: 600px) {
 
   .border-box-test {
-    min-width: 110px;
-    min-height: 200px;
+    min-width: 50%;
+    min-height: 80%px;
     border-style: inherit;
   }
   #video {
-    min-width: 100px;
-    max-width: 300px;
+    min-width: 50%;
+    max-width: 80%;
 
   }
 }
