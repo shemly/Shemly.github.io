@@ -354,7 +354,7 @@ th {
   padding: 0;
 }
 
-#video {
+.video {
 min-width: 28rem;
 max-width: 34rem;
 height: 20rem;
@@ -364,31 +364,71 @@ display: flex;
 
 
 }
-@media only screen and (min-width: 1080px) {
+
 .border-box-test {
   border-color: #343542;
   background-color: 343542;
   border-radius: 2%;
   border-style: solid;
-  min-width: 29rem;
+  min-width: 26rem;
   max-width: 35rem;
   height: 21rem;
   display: flex;
   margin-top: 20px;
 }
 
+.video {
+  min-width: 25rem;
+  max-width: 32rem;
+  height: 20rem;
+  max-height: 35rem;
+  margin: auto;
+  display: flex;
+}
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 767px) {
+
+
+  .video {
+    min-width: 95%;
+    max-width: 95%;
+    padding: 0px;
+
+  }
+  .border-box-test {
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+
+
+  .video {
+    min-width: 28rem;
+    max-width: 34rem;
+    height: 20rem;
+    max-height: 35rem;
+    margin: auto;
+    display: flex;
+  }
+
 
   .border-box-test {
-    min-width: 50%;
-    min-height: 80%px;
-    border-style: inherit;
+    border-color: #343542;
+    background-color: 343542;
+    border-radius: 2%;
+    border-style: solid;
+    min-width: 29rem;
+    max-width: 35rem;
+    height: 21rem;
+    display: flex;
+    margin-top: 20px;
   }
-  #video {
-    min-width: 50%;
-    max-width: 80%;
 
-  }
 }
   
